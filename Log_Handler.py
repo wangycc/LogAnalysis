@@ -22,5 +22,5 @@ def index():
 
 if __name__ == '__main__':
     Log('/usr/DaoKe/Python/haproxy.log')
-    app.run(host='localhost',port=1028)
+    app.run(host='0.0.0.0',port=1028)
 		
